@@ -4,7 +4,7 @@ let StrVal = num.toString();
     let RevVal = num.toString().split("").reverse().join("");
     
     if (StrVal == RevVal){
-        console.log("");
+        console.log("Yes");
     }else {
         console.log("No");
     }
